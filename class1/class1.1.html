@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--
+    <style>
+        p {
+            text-shadow: 1px 1px 2px red;
+        }
+    </style>
+-->
+
+
+    <!--    How to link external CSS File with the HTML File    -->
+    <link rel="stylesheet" href="styles.css">
+
+
+    <style>
+
+        p {
+            color: blue;
+        }
+
+        .para-sf {
+            color: orange;
+        }
+
+        #black-para {
+            color: green;
+        }
+
+
+    </style>
+
+
+
+
+
+
+</head>
+
+
+<!--            How to add styling to HTML?
+                - Inline CSS - Adding style inside the opening tag (in the same line as the element)
+
+                - Internal (Single tag) - We do this inside the <head> tag by using the <style> tag and then specify the stylings
+                
+                - External - IMPORTANT
+                            We create a separate CSS File and link it with the HTML file.
+                            We us ethe following format to link the files
+                        <link rel="stylesheet" href="_name_of_the_css_file_here_">
+                            to link both the html and css files together
+
+
+                Specificity:
+                            There is a hierarchy for the weight given to each type of selector in CSS
+                            This is needed bcoz elements can have multiple CSS selectors
+                            - Type selectors (h1) Pseudo Elements (::before) --------- LEAST
+                            - Class selectors (with .) and Pseudo Classes (:hover) --- MORE
+                            - ID Selectors (the ones with #) ------------------------- MORE
+                            - Inline CSS (jo same line me style likha hoga toh) ------ MOST
+
+
+                Box Model in CSS
+                            - Basic Building block of CSS
+                            - Every element on a page is a rectangular box and may have,
+                              width, height, padding, borders and margins.
+                              
+
+-->
+
+
+
+<body>
+    
+    <!-- This below is Inline CSS -->
+    <p style="background-color: orange;"> Hello Ji, Kaise ho saare? </p>
+
+    <span> Let's apply external CSS on this </span>
+
+    <p class="para-sf" id="black-para" style="color: aqua;"> Wingardium Leviosa! </p>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="flexbox.css">
+</head>
+
+
+<!--                                 FlexBox
+            It is a 1 Dimensional layout model through which we can perform
+            - Space distribution
+            - Alignment capabilities
+            It is like a container (and we call it flexbox)
+            There exists a parent-child relationship here.
+            The parents name is - flex
+            Then the immediate nested elements inside the flex, the childs,
+            are called it's flex items.
+            The horizontal axis is known as main axis
+            The vertical axis is known as cross axis
+            Simply put:
+                    It is a layout model using which we can handle the alignment
+                    of many elements easily.
+
+            Steps on how to make it a flex:
+            - We need to write
+                            display: flex;
+             in the css of the container (the parent box)
+
+
+
+
+                                Flex-container Properties:
+            Flex container becomes flexible by setting the display property to flex
+            - Flex-direction: row, row-reverse, column, column-reverse
+            - Flex-wrap: wrap, nowrap, wrap-reverse
+            - Flex-flow: shorthand notation for the two above properties.
+            - Justify-content: It aligns the items above the main-axis
+            - Align-items
+            - Align-content
+
+
+
+            align-items?
+                        aligns the content according to the cross-axis (vertical axis)
+            
+            align-content?
+                        it handles the spacing between the rows of the flex-items.
+
+
+
+
+
+                                Flex-items Properties:
+            The child elements inside the flexbox become flexible (flex) items
+            Idhar hamlog child items ke upar formatting apply karenge....
+            abhi tak parent box ke upar apply kar rahe the
+            - Order: When we have to change the orders of the boxes (like from start to end)
+            - Flex-grow (shown in CSS)
+            - Flex-shrink (shown in CSS)
+            - Flex-basis (explained well below in NOTE)
+            - Flex (it is a shorthand notation by which we can use the above 4 properties in a single line)
+            - Align-self (Only one item is aligned)
+
+
+        NOTE- FLEX makes your website responsive. It will respond to the changes that it earlier did not respond to.
+              For example- Using width and flex-baasis seems to do the same thing? right?
+                           NO bcoz when we use width and we put too much content then that content gets cut
+                           and only a little part is shown, whereas when we use the flex-basis then in that case the
+                           excess content is still put up in the box and more room is made for the extra content.
+                           THAT shows that the website has become responsive now.
+
+
+
+
+
+
+                                PARALLAX Effect
+        Objects moving with different speeds in the same frame (due to the distance between them and the distance between them and you)
+        is known as the Parallax Effect. It takes place between a background image and a foreground image such that whenever we scroll them
+        we observe parallax.
+
+
+-->
+
+
+
+<body>
+
+    <div class="container">
+        <div class="box" id="box1">box-1</div>
+        <div class="box" id="box2">box-2</div>
+        <div class="box" id="box3">box-3</div>
+        <div class="box" id="box4">box-4</div>
+    </div>
+
+
+
+</body>
+</html>

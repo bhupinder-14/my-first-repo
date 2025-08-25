@@ -1,0 +1,43 @@
+/*      Here we show Static positioning
+p {
+    position: static;
+}
+*/
+
+div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.boss {
+    position: relative;
+    left: 25px;
+    top: 100px;
+}
+
+.abcd3 {
+    position: relative;
+    top: 100px;
+    left: 50px;
+}
+
+.abcd1 {
+    position: fixed;
+    top: 200px;
+}
+
+
+.abcd4 {
+    position: sticky;
+    top: 0px;
+}
+
+
+.wrapper {
+    width: 100vw;
+    height: 1000px;
+    background-color: yellow;
+}

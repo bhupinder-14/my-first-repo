@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .class1 {
+            color: red;
+            font-size: larger;
+        }
+        .class2 {
+            background-color: pink;
+        }
+        
+        .ABC {
+            font-size: smaller;
+        }
+        .XYZ {
+            font-size: larger;
+        }
+
+        #FirstButton:hover {
+            color: red;
+            background-color: aqua;
+        }
+
+        button:hover {
+            color: yellow;
+        }
+
+        .linkcolor:hover {
+            color: green;
+        }
+
+        #thisoneID:hover {
+            color: red;
+        }
+
+    </style>
+
+
+
+</head>
+
+<!--                            CSS - Cascading Style Sheets
+                    It is used for the -
+                    - appearance
+                    - styling
+                    - formatting
+                    of a webpage.
+
+
+        What is a Selector?
+            It is a way in which we can select one (or more) element (or elements)
+            An example fo a selector (we have used it many times before):-
+                        table {
+                            color: aqua;
+                        }
+            here table was the selector, color was a property and aqua was the value.
+            
+        Types of Selectors?
+            1. Simple Selectors:
+                    Element Selector - (Tag Selector)
+                                        We directly use the name of the element or the name of the tag used
+                                        to specify the styling that we need to perform on it
+                                        Like for example- When we use table, p {
+                                                                        }
+                                        For tables and paragraphs instead of taking their names
+                                        and just use their element tag itself.
+
+                    Class Selector - A class can be assigned to a group of different elements and similar styling
+                                    can be assigned to the same group of elements.
+                                    Keep in mind that whenever we need to access a Class we need to use a
+                                    period (.) before its name to access it.
+
+                    ID Selector - ID is unique. When we need to individually style any ONE element or a tag
+                                    then we assign it a particular ID and then style that ID with CSS.
+                                    We cannot assign one ID to another element it is always unique.
+                                    Keep in mind that whenever we need to access an ID we need to use a
+                                    hashtag (#) before its name to access it.
+            2. Pseudo-classes Selector:
+                                    Pseudo Class is a keyword that displays the special state of your tag.
+                                    It is a keyword using which we can show a special state of a tag.
+                                    For example- checkout the button hover thing from above.
+                                    We can use this alongside a class selector as well as ID selector.
+            3. Multiple Selector:
+                                    When we use more than one tag while applying styling the situation
+                                    is known as using Multiple Selectors.
+                                    Like for example- When we used table, tr, td, th { } while styling
+                                    during our tables class.
+
+        How to add styling to HTML?
+            . In the class1.1.html
+                    
+-->
+
+
+
+
+<body>
+
+    <h1 class="class2"> This is my First Heading and it is being styled by Element Selector </h1>
+    <h1 class="class1"> Does this h1 also get affected by the element tag? Yes I guess so! </h1>
+    <p class="class1"> This is inside a Paragraph </p>
+    <p class="class2"> Second paragraph </p>
+    <br>
+    <br>
+    <h1 class="ABC"> This is a heading </h1>
+    <h1 class="ABC"> This is another heading </h1>
+    <h6 class="XYZ"> This is a small heading </h6>
+    <h6 class="XYZ"> This is another small heading </h6>
+
+    <button id="FirstButton"> SUBMIT </button>
+    <br>
+    <br>
+    <button> Submit </button>
+    <br>
+    <a class="linkcolor" href="https://www.google.com" target="_blank">Go to Google</a>
+    <br>
+    <a id="thisoneID" href="https://www.google.com" target="_blank">This website has been visited maybe.</a>
+
+</body>
+</html>

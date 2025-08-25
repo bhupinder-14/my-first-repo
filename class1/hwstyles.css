@@ -1,0 +1,21 @@
+#image {
+    height: 35%;
+    width: 35%;
+    border-radius: 10px;
+}
+.head {
+    font-size: xx-large;
+}
+.div1 {
+    padding-left: 40px;
+    color: rgb(63, 63, 177);
+    font-size: x-large;
+    background-color: aqua;
+    width: 90px;
+}
+.div2 {
+    padding-left: 120px;
+    background-color: red;
+    width: 100px;
+    margin-right: 40%;
+}
